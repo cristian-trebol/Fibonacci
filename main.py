@@ -8,3 +8,8 @@ class FibonacciShould(TestCase):
         fibonacci = Fibonacci()
         output = fibonacci.execute(0)
         self.assertEqual(output, 0)
+
+    def test_return_fibonacci_when_1(self):
+        fibonacci = Fibonacci()
+        output = fibonacci.execute(1)
+        self.assertEqual(output, 1)
