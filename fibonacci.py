@@ -1,3 +1,3 @@
 class Fibonacci():
     def execute(self, position):
-        return 0
+        return position

@@ -13,3 +13,6 @@ class FibonacciShould(TestCase):
         fibonacci = Fibonacci()
         output = fibonacci.execute(1)
         self.assertEqual(output, 1)
+
+
+
