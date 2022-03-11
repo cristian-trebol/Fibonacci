@@ -14,5 +14,9 @@ class FibonacciShould(TestCase):
         output = fibonacci.execute(1)
         self.assertEqual(output, 1)
 
+    def test_return_fibonacci_when_15(self):
+        fibonacci = Fibonacci()
+        output = fibonacci.execute(15)
+        self.assertEqual(output, 610)
 
 
